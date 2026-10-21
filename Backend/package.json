@@ -1,0 +1,31 @@
+{
+  "name": "tecnochilds-backend",
+  "version": "2.0.0",
+  "description": "Backend de TecnoChilds - Plataforma vocacional para jóvenes",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node Server.js",
+    "dev": "node --watch Server.js"
+  },
+  "keywords": [
+    "vocacional",
+    "educacion",
+    "jovenes"
+  ],
+  "author": "TecnoChilds",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.4.0",
+    "mysql2": "^3.22.3",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-microsoft": "^2.1.0",
+    "sqlite3": "^6.0.1"
+  }
+}
